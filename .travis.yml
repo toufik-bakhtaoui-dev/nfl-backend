@@ -9,7 +9,7 @@ cache:
         - node_modules
 
 install:
-    - yarn install
+    - yarn install --ignore-optional
 
 services:
     - mongodb

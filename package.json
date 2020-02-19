@@ -4,7 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon --inspect server.js",
     "format": "npx prettier --config .prettierrc.json --write \"**/*.js\"",
     "test": "jest --coverage --watchAll"
   },
