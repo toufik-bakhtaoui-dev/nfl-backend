@@ -6,4 +6,5 @@ it('GET', async () => {
     await supertest(app.server)
         .get('/')
         .expect(200)
+    await app.close()    
 })
