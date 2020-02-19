@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
-    "format": "npx prettier --config .prettierrc.json --write \"**/*.js\""
+    "format": "npx prettier --config .prettierrc.json --write \"**/*.js\"",
+    "test": "jest"
   },
   "dependencies": {
     "fastify": "^2.12.0",
