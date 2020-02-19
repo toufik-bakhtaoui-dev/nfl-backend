@@ -4,9 +4,8 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --inspect server.js",
-    "format": "npx prettier --config .prettierrc.json --write \"**/*.js\"",
-    "test": "jest --coverage --watchAll"
+    "start": "node server.js",
+    "format": "npx prettier --config .prettierrc.json --write \"**/*.js\""
   },
   "dependencies": {
     "fastify": "^2.12.0",
